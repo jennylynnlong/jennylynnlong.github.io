@@ -1,0 +1,32 @@
+table{
+    border: solid 2pt brown;
+}
+
+caption{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th{
+    padding: 10pt;
+    background-color: burlywood;
+}
+
+td{
+    padding: 10pt;
+}
+
+tr:nth-child(even){
+    background-color: rgb(204, 191, 141);
+}
+
+tr:nth-child(odd){
+    background-color: cornsilk;
+}
+
+tr:hover{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+}
+/* blah blah blah */
