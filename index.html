@@ -1,46 +1,51 @@
 <html>
     <head>
         <title>My Home Page</title>
-    </head>
+    
 
-    <style>
-        .navbar{
-            padding: 10px;
-            background: teal;
-        }
-
-        .navbar.li{
-            display: inline-block;
-            padding: 25px;
-            background: grey;
-            border-radius: 3px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-        .navbar li a{
-            color: black;
-            text-decoration: none;
-        }
-
-        .select{
-            visibility: hidden;
-        }
-
-        @media (max-width: 600px){
-            .navbar.li{
+        <style>
+            .navbar{
                 padding: 10px;
+                background: teal;
             }
 
-            .navbar ul{
-                visibility: hidden;
+            .navbar.li{
+                display: inline-block;
+                padding: 25px;
+                background: grey;
+                border-radius: 3px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .navbar li a{
+                color: black;
+                text-decoration: none;
             }
 
             .select{
-                visibility: visible;
+                visibility: hidden;
             }
-        }
-    </style>
+
+            @media (max-width: 600px){
+                .navbar.li{
+                    padding: 10px;
+                }
+
+                .navbar ul{
+                    visibility: hidden;
+                }
+
+                .select{
+                    visibility: visible;
+                }
+
+                body{
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                }
+            }
+        </style>
+    </head>
 
     <body>
         
