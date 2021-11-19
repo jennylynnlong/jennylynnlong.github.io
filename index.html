@@ -3,11 +3,88 @@
         <title>My Home Page</title>
     </head>
 
+    <style>
+        .navbar{
+            padding: 10px;
+            background: teal;
+        }
+
+        .navbar.li{
+            display: inline-block;
+            padding: 25px;
+            background: grey;
+            border-radius: 3px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .navbar li a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .select{
+            visibility: hidden;
+        }
+
+        @media (max-width: 600px){
+            .navbar.li{
+                padding: 10px;
+            }
+
+            .navbar ul{
+                visibility: hidden;
+            }
+
+            .select{
+                visibility: visible;
+            }
+        }
+    </style>
+
     <body>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="headings.html">Headings</a></li>
+                <li><a href="textDemo.html">Text Demo</a></li>
+                <li><a href="bulletList.html">Bullet List</a></li>
+                <li><a href="numberedList.html">Numbered List</a></li>
+                <li><a href="CSSdemo.html">CSS Demo</a></li>
+                <li><a href="table.html">Table Demo</a></li>
+                <li><a href="PetTableDemo.html">Pet Table Demo</a></li>
+                <li><a href="travel.html">Travel</a></li>
+            </ul>
+        </nav>
+        
+        
+        <select class="select">
+            <option>Home</option>
+            <option>Bio</option>
+            <option>Headings</option>
+            <option>Text Demo</option>
+            <option>Bullet List</option>
+            <option>Numbered List</option>
+            <option>CSS Demo</option>
+            <option>Table Demo</option>
+            <option>Pet Table Demo</option>
+            <option>Travel</option>
+        </select>
+        
+
+        <center>
         <h1>Welcome to my web page!</h1>
+        <h2>Jennifer "Jenny" Long</h2>
+        <img src="media/photo.jpg" width=300 height=300 title="Jennifer Long">
+        </center>
         <p>
             Check out some more content in the following pages:
         </p>
+        <h3>Bio Page</h3>
+        <a href="bio.html">Click here to go to my bio page</a>
+        
         <h3>Heading Demo</h3>
         <a href="headings.html">Click here to go to the heading demo web page</a>
 
